@@ -1,0 +1,8 @@
+<h2>Upload your file:</h2>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="document">
+    <button type="submit">Upload file</button>
+</form>
+<h2>After Uploading or if already Uploaded visit:</h2>
+<a href='/filter'>Filtered Files</a><br><a href='/round'>Rounded Files</a><br><a href='/mean'>Mean files</a>
