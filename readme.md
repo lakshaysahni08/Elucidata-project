@@ -21,3 +21,5 @@ Below the submit button you will see 3 urls:
 2) Rounded Files - Adds a new column in the parent dataset with the name “Retention Time Roundoff (in mins)”. This column should have rounded-off values of the corresponding retention time
 
 3) Mean files - finds the mean of all the metabolites which have same "Retention Time Roundoff" across all the samples.
+
+To run The test cases -  on the terminal, run the test cases by using 'python manage.py test'
